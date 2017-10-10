@@ -1,0 +1,19 @@
+{
+  "name": "gmail",
+  "version": "0.0.1",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-node": "^1.14.5",
+    "protractor": "^5.1.2",
+    "selenium-standalone": "^6.9.0",
+    "selenium-webdriver": "^3.6.0",
+    "webdriver-manager": "^12.0.6"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/izyuminka/ProtractorTrainingGmail.git"
+  },
+  "scripts": {
+    "test": "selenium-standalone start|protractor conf.js"
+  }
+}
